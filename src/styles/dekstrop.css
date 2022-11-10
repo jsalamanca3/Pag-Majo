@@ -1,0 +1,25 @@
+.h__title {
+    font-size: var(--title-haiger);
+}
+.h_introduction {
+    font-size: var(--title-ex);
+}
+.p__intro-description{
+    font-size: var(--letter-large);
+}
+.p__article {
+    font-size: var(--letter-medium);
+}
+.p__article_autor {
+    font-size: var(--letter-medium);
+}
+.video__entrevista {
+    height: 460px;
+}
+.h_bibliografias{
+    font-size: var(--title-ex);
+}
+.a_bibliografias {
+    font-size: var(--letter-large);
+}
+
