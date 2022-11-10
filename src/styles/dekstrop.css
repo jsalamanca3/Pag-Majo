@@ -22,3 +22,15 @@
 .a_bibliografias {
     font-size: var(--letter-large);
 }
+.div__container_article {
+    max-width: 460px;
+    padding: 0% 1% 1% 1%;
+}
+.container__article {
+    grid-column-gap: 10px;
+    grid-row-gap: 2px;
+}
+.h__title_article_name {
+    padding: 3% 2% 2% 2%;
+    font-size: var(--title-medium);
+}

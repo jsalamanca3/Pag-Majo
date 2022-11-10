@@ -141,9 +141,9 @@ main {
 }
 .div__container_article {
     width: 90%;
-    max-width: 550px;
+    max-width: 360px;
     height: auto;
-    padding: 0% 4% 4% 4%;;
+    padding: 0% 4% 4% 4%;
     margin-top: 16px;
     border-radius: 15px;
     background: var(--color-letter-li);
@@ -204,6 +204,15 @@ iframe {
     grid-area: 6 / 1 / 7 / 2;
 }
 /* bibliografias */
+.container__div_bibliografia {
+    display: flex;
+    justify-content: space-around;
+}
+.div__container_bibliografia {
+    width: 90%;
+    height: auto;
+    margin-bottom: 25px;
+}
 .container__bibliografias_url {
     display: flex;
     flex-direction: column;
@@ -221,6 +230,7 @@ iframe {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    margin-bottom: 20px;
     color: var(--color-letter);
     font-size: var(--letter-small);
     font-weight: var(--font-weight-letter-light);
@@ -236,15 +246,16 @@ footer {
     height: 115px;
     align-items: center;
     justify-content: flex-start;
-    font-size: var(--title-large);
     color: var(--color-title);
     background: var(--color-title);
-    font-weight: var(--font-weight-title-medium);
 }
 .footer__logo_universidad {
     width: 30%;
     height: auto;
 }
 .p__footer_u {
+    font-size: var(--title-small);
     color: var(--color-letter-li);
+    font-weight: var(--font-weight-title-medium);
+    font-family: var(--font-title);
 }

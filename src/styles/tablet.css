@@ -60,4 +60,5 @@ footer {
 }
 .p__footer_u {
     color: var(--color-letter-li);
+    font-size: var(--title-medium);
 }
