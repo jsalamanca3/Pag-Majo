@@ -23,8 +23,8 @@
     font-size: var(--letter-large);
 }
 .div__container_article {
-    max-width: 460px;
-    padding: 0% 1% 1% 1%;
+    max-width: 860px;
+    padding: 0% 3% 3% 3%;
 }
 .container__article {
     grid-column-gap: 10px;

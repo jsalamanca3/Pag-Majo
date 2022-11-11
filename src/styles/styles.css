@@ -80,6 +80,7 @@ nav {
     justify-content: space-around;
     background: var(--color-nav);
     float: left;
+    z-index: 3;
 }
 .a_footer_menu {
     overflow: hidden;
@@ -132,23 +133,26 @@ main {
 .div__section_article {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    gap: 12px;
+    /* gap: 12px; */
     width: 100%;
     height: auto;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
 }
 .div__container_article {
     width: 90%;
     max-width: 360px;
     height: auto;
     padding: 0% 4% 4% 4%;
-    margin-top: 16px;
+    margin-top: 18px;
+    margin-bottom: 20px;
     border-radius: 15px;
     background: var(--color-letter-li);
     box-shadow: 0px 4px 8px rgb(89 73 30 / 16%);
 }
+.carousel-control-next-icon {
+    color: #1b2021;
+}
+
 iframe {
     width: 100%;
     height: auto;
