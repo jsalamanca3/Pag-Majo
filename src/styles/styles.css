@@ -157,6 +157,7 @@ iframe {
     width: 100%;
     height: auto;
     padding: 5%;
+    margin-top: 20px;
 }
 .p__article {
     font-size: var(--letter-small);
