@@ -243,6 +243,9 @@ iframe {
 .a_top {
     margin-bottom: 50px;
 }
+.matriz {
+    height: 600px;
+}
 footer {
     display: flex;
     flex-direction: column;
