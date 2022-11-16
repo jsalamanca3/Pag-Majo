@@ -216,7 +216,6 @@ iframe {
 .div__container_bibliografia {
     width: 90%;
     height: auto;
-    margin-bottom: 25px;
 }
 .container__bibliografias_url {
     display: flex;
@@ -244,7 +243,8 @@ iframe {
     margin-bottom: 50px;
 }
 .matriz {
-    height: 600px;
+    width: 98%;
+    height: 450px;
 }
 footer {
     display: flex;

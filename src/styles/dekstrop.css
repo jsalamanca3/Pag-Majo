@@ -39,3 +39,6 @@
     font-weight: var(--font-weight-title-medium);
     font-size: var(--title-large);
 }
+.matriz {
+    height: 680px;
+}
