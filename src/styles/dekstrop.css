@@ -10,10 +10,7 @@
     font-size: var(--letter-large);
     font-weight: 400;
 }
-.p__article,
-.p__article_autor,
-.p__article_anho,
-.p__article_datos {
+.p__article {
     font-size: var(--letter-medium);
     font-weight: 500;
 }
@@ -38,6 +35,9 @@
     padding: 3% 2% 2% 2%;
     font-weight: var(--font-weight-title-medium);
     font-size: var(--title-large);
+}
+.img__article{
+    height: 410px;
 }
 .matriz {
     height: 680px;
